@@ -12,7 +12,7 @@ export default defineConfig({
       "./App2": "./src/App.jsx",
     },
     remotes:{
-      "mfe-app02": "https://mfe-app-01.vercel.app/assets/remoteEntry.js",
+      "mfeApp1": "https://mfe-app-01.vercel.app/assets/remoteEntry.js",
     },
     shared: ["react", "react-dom"],
   })],
